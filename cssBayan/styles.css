@@ -147,6 +147,9 @@ input:checked ~ .item__content img {
   .accordion__item:active .item__head {
     background: #98e080;
   }
+  .accordion__item:active .item__content {
+    background: #98e080;
+  }
 
   .accordion__item:hover .item__head .icon {
     transform: rotate(45deg);
